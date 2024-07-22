@@ -20,6 +20,7 @@
         },
 
         "scripts": {
+            "postinstall": "npx typesync",
             "uninstall": "bash ./scripts/uninstall.sh",
             "reinstall": "bash ./scripts/reinstall.sh",
             
